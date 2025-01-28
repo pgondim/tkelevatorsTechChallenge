@@ -1,0 +1,20 @@
+{
+  "name": "tkelevatorstechchallenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pedro Gondim",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.14.0"
+  }
+}
