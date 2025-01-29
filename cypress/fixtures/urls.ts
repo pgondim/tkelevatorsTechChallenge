@@ -5,5 +5,6 @@ export const urls = {
     linkedinShare: "https://www.linkedin.com/sharing/share-offsite/?url=https://brochure.tkelevator.com/pt_BR/agile-tutorial-flyer-tke-global-pt-br",
     facebookShare: "https://www.facebook.com/share.php?u=https://brochure.tkelevator.com/pt_BR/agile-tutorial-flyer-tke-global-pt-br",
     xShare: "https://twitter.com/intent/tweet?https://brochure.tkelevator.com/pt_BR/agile-tutorial-flyer-tke-global-pt-br",
-    tkelevators: "https://www.tkelevator.br/"
+    tkelevators: "https://www.tkelevator.br/",
+    dataLink: "https://brochure.tkelevator.com/pt_BR/agile-tutorial-flyer-tke-global-pt-br"
 }
