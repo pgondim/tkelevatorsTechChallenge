@@ -35,3 +35,20 @@
 //     }
 //   }
 // }
+declare namespace Cypress {
+  interface Chainable {
+    textValidation(
+      webElement: Chainable<JQuery<HTMLElement>>,
+      text: string
+    ): Chainable<Element>;
+    getByHref(href: string): Chainable<JQuery<HTMLElement>>;
+  }
+}
+
+Cypress.Commands.add("textValidation", (webElement, text) => {
+  webElement.should("have.text", text);
+});
+
+Cypress.Commands.add("getByHref", (href) => {
+  cy.get(`a[href="${href}"]`);
+});
