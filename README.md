@@ -17,5 +17,4 @@ npx cypress open
 # CI/CD - Pipeline - GitHub actions
 A CICD pipeline was created with github actions to run cypress tests automatically with each new push made to the project.
 
-To access the pipelines that have already been executed, simply go to the project's [Actions](https://github.com/pgondim/tkelevatorsTechChallenge/actions) tab
-Basta ir na aba [Actions](https://github.com/pgondim/desafio-tecnico-qa-2024/actions) do projeto para ter acessos as pipelines que já foram executadas.
+To access the pipelines that have already been executed, simply go to the project's [Actions](https://github.com/pgondim/tkelevatorsTechChallenge/actions) tab.
